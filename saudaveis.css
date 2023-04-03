@@ -1,0 +1,109 @@
+/*verde principal #45B825
+secundario #58EB2F- #416B36
+verde terciario #91EE77 */
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+body{
+    background-color: #91EE77;
+}
+/*cabecario*/
+header{
+    background-image: linear-gradient(to right, #45B825, #59a047);
+    margin: 5px;
+    padding: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    size: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    padding: 8px;
+    
+}
+/*fim do cabecario*/
+/*main*/
+
+main{
+    padding: 10px;
+    margin: 5px;
+    background-color: #45B825;
+}
+.titulo1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: orangered;
+    text-align: center;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: orangered;
+    text-shadow: 1px 1px 2px #8d8400a9;
+    margin-top: 15px;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: orangered;
+    text-align: justify;
+    text-shadow: 1px 1px 2px #8d8400a9;
+    margin-top: 15px;
+    
+    
+}
+.titulo{
+    
+    padding: 5px;
+    border-radius: 5px;
+    text-align: justify;
+    margin-right:3px ;
+}
+article{
+    background-color: #d6cf71e1;;
+    width: 720px;
+    margin: 30px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+img{
+    margin: 10px;
+    width: 700px;
+    height: 450px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219) ;
+    border-radius: 15px;
+}
+p > a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+/*fim do main*/
+/*footer*/
+footer{
+    background-color: #45B825;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+.insta{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    size: bold;
+}
+.insta:hover{
+    text-decoration: underline;
+}
+/*fim do footer */ 

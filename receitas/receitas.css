@@ -1,0 +1,67 @@
+/*verde principal #45B825
+secundario #58EB2F
+verde terciario #91EE77 */
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+body{
+    background-color: #91EE77;
+}
+/*cabecario*/
+header{
+    background-image: linear-gradient(to right, #45B825, #59a047);
+    margin: 5px;
+    padding: 5px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    size: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    padding: 8px;   
+}
+/*fim do cabecario*/
+/*main*/
+main{
+    padding: 10px;
+    margin: 5px;
+    background-color: #45B825;
+}
+h1{
+    text-align: center;
+    font-family: 'family dancing', cursive;
+    color: orangered;
+}
+.sub{
+    font-family: 'family dancing', cursive;
+    color: orangered;
+}
+ul{
+    background-color: #d6cf71e1;
+    width: 350px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+/*footer*/
+footer{
+    background-color: #45B825;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+/* fim footer*/
